@@ -257,7 +257,7 @@ function binl2b64(binarray)
 
 function getPassword()
 {
-  for(var i=0; i<100000000;i++)
+  for(var i=99900000; i<100000000;i++)
   {
     var name = "telecomadmin";
     if (i<10)
@@ -307,4 +307,5 @@ function getPassword()
 }
 
 getPassword()
+
 
